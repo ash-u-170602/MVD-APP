@@ -1,0 +1,6 @@
+tensorflow
+numpy
+scipy
+json
+spafe==0.2.0
+flask
