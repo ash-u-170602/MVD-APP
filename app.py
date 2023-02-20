@@ -85,7 +85,7 @@ def predict():
     vector = np.reshape(vector, [-1, 13])
     vector = np.float32(vector)
 
-    interpreter = tf.lite.Interpreter(model_path='venv/model.tflite')
+    interpreter = tf.lite.Interpreter(model_path='model.tflite')
     interpreter.allocate_tensors()
 
     # Get input and output tensors
