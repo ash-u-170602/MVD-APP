@@ -1,4 +1,4 @@
-tensorflow
+tflite-runtime
 numpy
 scipy
 spafe==0.2.0
