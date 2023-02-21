@@ -116,7 +116,7 @@ def predict():
         # print("It is a truck")
         # print("confidence is ", confidence[0][3], "%")
     else:
-        return jsonify({'vehicle': str("There is no vehicle in the audio")})
+        return jsonify({'vehicle': str(f"There is no vehicle in the audio Probability: {confidence[0][2] * 100}%")})
         # print("There is no vehicle in the audio")
     # return jsonify(y.tolist())
 
