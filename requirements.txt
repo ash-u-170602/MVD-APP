@@ -1,6 +1,6 @@
-tflite-runtime
 numpy
 scipy
 gunicorn
 spafe==0.2.0
 flask
+tflite-runtime
